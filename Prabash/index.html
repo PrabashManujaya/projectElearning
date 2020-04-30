@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>E-Learning Dashboard</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+
+	<nav class="clearfix">
+		<img src="img/nav-logo.png">
+
+		<div class="nav-menu">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Administration</a></li>
+				<li><a href="#">Notifications</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Other</a></li>
+				<li><a href="#">Logout</a></li>
+			</ul>
+		</div>
+	</nav>
+
+
+	<header class="clearfix">
+		<div class="header-text">
+			<h1>C I M A</h1>
+			<h2>E-Learning Dashboard</h2>
+		</div>
+		
+		<img src="img/header.jpg">
+	</header>
+
+
+	<div class="page-content clearfix">
+		<div class="blocks">
+			<h1>Add Lectures</h1>
+
+			<form class="forum">
+				
+				<div class="form-group">
+					<label>Name of the Lecturer : </label>
+					<input type="text" name="lecturer-name" placeholder="Enter Lecturer Name Here">
+				</div>
+
+				<div class="form-group">
+					<label>Level of the Lecture : </label>
+					<select name="lecture-level">
+						<option value ="level-01">Certificate Level</option>
+						<option value ="level-02">Operational Level</option>
+						<option value ="level-03">Management Level</option>
+						<option value ="level-04">Strategic Level</option>
+						<option value ="other">Other</option>
+					</select>
+				</div>
+
+				<div class="form-group">
+					<label>Subject of the Lecture : </label>
+					<input type="text" name="lecture-subject" placeholder="Enter Lecture Subject Here">
+				</div>
+
+				<div class="form-group">
+					<label>Date : </label>
+					<input type="date" name="lecture-date" >
+				</div>
+
+				<div class="form-group">
+					<label>Time : </label>
+					<input type="time" name="lecture-time" >
+				</div>
+
+				<div class="form-group">
+					<label>Add files : </label>
+					<input type="file" name="lecture-file">
+				</div>
+
+				<div class="form-group">
+					<input type="checkbox" name=""><span> I have read terms and conditions.</span>
+				</div>
+
+			</form>
+			<button name="add">Add</button>
+
+			<img src="img/content-pic.png" class="blocks-img">
+
+		</div><!-- blocks -->
+
+		<div class="blocks">
+			<h1>Drop Lectures</h1>
+
+			<form class="forum">
+
+				<div class="form-group">
+					<label>Level of the Lecture : </label>
+					<select name="lecture-level">
+						<option value ="level-01">Certificate Level</option>
+						<option value ="level-02">Operational Level</option>
+						<option value ="level-03">Management Level</option>
+						<option value ="level-04">Strategic Level</option>
+						<option value ="other">Other</option>
+					</select>
+				</div>
+
+				<div class="form-group">
+					<label>Subject of the Lecture : </label>
+					<select name="lecture-subject">
+						<option value ="subject-01">Subject 01</option>
+						<option value ="subject-02">Subject 02</option>
+						<option value ="subject-03">Subject 03</option>
+						<option value ="subject-04">Subject 04</option>
+						<option value ="other">Other</option>
+					</select>
+				</div>
+
+				<div class="form-group">
+					<label>You Selected to Drop Following Lectures : </label>
+					<ul class="droping">
+						<li>Subject 01</li>
+						<li>Subject 02</li>
+						<li>Subject 03</li>
+					</ul>					
+				</div>
+
+				<div class="form-group">
+					<label>Other Details : </label>
+					<textarea name="DropOtherDetails" placeholder="Enter Other Details About the Droping of Lecture (Optional)"></textarea>
+				</div>	
+			</form>
+			<button name="drop">Drop</button>
+
+		</div><!-- blocks -->
+		
+	</div><!-- page-content -->
+
+
+	<div class="more-section clearfix">
+		<div class="more-blocks">
+			<ul class="more-list">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Administration</a></li>
+				<li><a href="#">Notifications</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Other</a></li>
+			</ul>
+		</div>
+
+		<div class="more-blocks">
+			<ul class="more-list">
+				<li><a href="#">Facebook</a></li>
+				<li><a href="#">Youtube</a></li>
+				<li><a href="#">Twitter</a></li>
+				<li><a href="#">Instergram</a></li>
+				<li><a href="#">Pinterest</a></li>
+			</ul>
+		</div>
+
+		<div class="more-blocks">
+			<ul class="more-list">
+				<li><a href="#">Contact Us</a></li>
+				<li><a href="#">Terms & Conditions</a></li>
+				<li><a href="#">Privacy Policies</a></li>
+			</ul>
+		</div>
+		
+	</div><!-- more-section -->
+	
+
+	<footer class="clearfix">
+		<div class="z1">Copyrights &copy; PrabashManujaya</div>
+
+		<div class="z2">Contact Us - prabashmanujaya@gmail.com</div>
+
+	</footer>
+
+</body>
+</html>
